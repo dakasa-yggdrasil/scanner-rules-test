@@ -1,0 +1,5 @@
+queries:
+  - uses: dakasa-yggdrasil/scanner-rule-fixture-20261030/queries/public-secret-name.ql@fixture-v1-20261030
+query-filters:
+  - exclude:
+      id: go/weak-sensitive-data-hashing
