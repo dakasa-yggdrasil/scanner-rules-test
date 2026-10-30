@@ -1,0 +1,5 @@
+queries:
+  - uses: dakasa-yggdrasil/scanner-rules-test/queries/public-secret-name.ql@q1
+query-filters:
+  - exclude:
+      id: go/weak-sensitive-data-hashing
